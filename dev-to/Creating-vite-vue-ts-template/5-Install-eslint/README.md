@@ -70,15 +70,13 @@
     > For convenience, ESLint provides shortcuts that pre-define global variables exposed by popular libraries and runtime environments.
 
 1. Fix previous error by editing `.eslintrc.js` to look like this
-    ```javascript
-    module.exports = {
-      root: true,
-      // https://eslint.org/docs/rules/no-undef#nodejs
-      env: {
-        node: true,
-      },
-      ...
-    }
+    ```diff
+     module.exports = {
+       root: true,
+    +  // https://eslint.org/docs/rules/no-undef#nodejs
+    +  env: {
+    +    node: true,
+    +  },
     ```
 1. Run `npm run lint`
 1. `git add -u`
