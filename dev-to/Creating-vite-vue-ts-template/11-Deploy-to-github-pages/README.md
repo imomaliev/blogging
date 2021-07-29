@@ -2,7 +2,7 @@
 
 ## Setup project for Github Pages integration
 
-1. Configure `vite`. By setting correct `base` option. Update `vite.config.js`
+1. Configure `vite` by setting correct `base` option. Update `vite.config.js`
 
     > If you are deploying to `https://<USERNAME>.github.io/<REPO>/`, for example your repository is at `https://github.com/<USERNAME>/<REPO>`, then set `base` to `'/<REPO>/'`.
 
@@ -28,7 +28,7 @@
     ```console
     $ git rm -rf .
     ```
-1. Put dist/ folder contents into root of a project
+1. Put `dist/` folder contents into root of a project
     ```console
     mv dist/* . &&  rmdir dist/
     ```
