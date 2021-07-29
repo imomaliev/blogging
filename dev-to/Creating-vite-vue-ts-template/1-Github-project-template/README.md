@@ -6,6 +6,10 @@
 2. Go to `Settings` and check `Template repository`
    ![Template repository screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ub1v0eq5118thiflskw0.png)
 
+## Links
+
+-   https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository
+
 ## Project
 
 [vue-ts](https://github.com/imomaliev/vue-ts)
