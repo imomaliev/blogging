@@ -219,6 +219,11 @@
     +      - run: npm run test
     ```
 
+1. Update badge in `README.md`
+    ```diff
+    -![build](https://github.com/imomaliev/vue-ts/actions/workflows/build.yml/badge.svg)
+    +![ci](https://github.com/imomaliev/vue-ts/actions/workflows/ci.yml/badge.svg)
+    ```
 1. `git add -u`
 1. `git commit -m 'setup github workflow to run tests'`
 
