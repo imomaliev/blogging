@@ -1,6 +1,6 @@
 {
     "title": "Configure Eslint for Jest",
-    "tags": ["eslint", "jest"],
+    "tags": ["eslint", "jest", "vite", "vue"],
     "cover": "cover.png",
     "series": "Creating vite vue ts template",
     "images": []

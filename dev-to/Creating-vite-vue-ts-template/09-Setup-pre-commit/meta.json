@@ -1,6 +1,6 @@
 {
     "title": "Setup pre-commit",
-    "tags": ["precommit"],
+    "tags": ["precommit", "vite", "vue"],
     "cover": "cover.png",
     "series": "Creating vite vue ts template",
     "images": []

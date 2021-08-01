@@ -1,6 +1,6 @@
 {
     "title": "Setup pre-commit.ci",
-    "tags": ["precommit", "ci"],
+    "tags": ["precommit", "ci", "vite", "vue"],
     "cover": "cover.png",
     "series": "Creating vite vue ts template",
     "images": ["authorize-project.png"]

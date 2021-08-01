@@ -1,6 +1,6 @@
 {
     "title": "Setup Github Actions",
-    "tags": ["github", "ci"],
+    "tags": ["github", "ci", "vite", "vue"],
     "cover": "cover.png",
     "series": "Creating vite vue ts template",
     "images": [
