@@ -1,0 +1,12 @@
+{
+    "title": "Install instructions and repo configuration",
+    "tags": ["github", "vite", "vue"],
+    "cover": "cover.png",
+    "series": "Creating vite vue ts template",
+    "images": [
+        "enable-dependabot-alerts.png",
+        "configure-security-and-analysis-features.png",
+        "create-new-file.png",
+        "choose-a-license-template.png"
+    ]
+}
