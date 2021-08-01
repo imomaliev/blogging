@@ -140,6 +140,33 @@
 1. `git add -u`
 1. `git commit -m 'add links to typescript and jest docs'`
 
+## Delete unused styles
+
+1. After code review I've found that `vue-ts` template for Vite contains unused styles for `label` tag.
+1. Remove unused styles in `src/component/HelloWorld.vue`
+
+    ```diff
+    diff --git a/src/components/HelloWorld.vue b/src/components/HelloWorld.vue
+    index b09f889..0504d43 100644
+    --- a/src/components/HelloWorld.vue
+    +++ b/src/components/HelloWorld.vue
+    @@ -64,11 +64,6 @@ a {
+       color: #42b983;
+     }
+
+    -label {
+    -  margin: 0 0.5em;
+    -  font-weight: bold;
+    -}
+    -
+     code {
+       background-color: #eee;
+       padding: 2px 4px;
+    ```
+
+1. `git add -u`
+1. `git commit -m 'delete unused styles for label'`
+
 ## Links
 
 -   https://vitejs.dev/config/#resolve-alias
