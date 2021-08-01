@@ -29,9 +29,9 @@
          },
          extend: {
            textColor: {
-    -        'default': '#2c3e50'
-    +        'default': '#2c3e50',
-    +        'link': '#42b983'
+    -        default: '#2c3e50'
+    +        default: '#2c3e50',
+    +        link: '#42b983'
            }
          },
        },
@@ -71,13 +71,13 @@
     @@ -9,7 +9,11 @@ module.exports = {
          extend: {
            textColor: {
-             'default': '#2c3e50',
-    -        'link': '#42b983'
-    +        'link': '#42b983',
-    +        'code': '#304455',
+             default: '#2c3e50',
+    -        link: '#42b983'
+    +        link: '#42b983',
+    +        code: '#304455',
     +      },
     +      backgroundColor: {
-    +        'code': '#eeeeee',
+    +        code: '#eeeeee',
            }
          },
        },

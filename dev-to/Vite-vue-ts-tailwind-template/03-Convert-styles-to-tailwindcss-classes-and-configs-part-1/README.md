@@ -133,7 +133,7 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
     -    extend: {},
     +    extend: {
     +      textColor: {
-    +        'default': '#2c3e50'
+    +        default: '#2c3e50'
     +      }
     +    },
        },
