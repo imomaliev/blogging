@@ -23,11 +23,22 @@
     +  ]
      }
     ```
-1. Now we can update our `src/App.vue` to use `@` as root of a local import path.
+1. Now we can update our code to use `@` as root of a local import path.
+
+    In `src/App.vue`
+
     ```diff
     -import HelloWorld from './components/HelloWorld.vue'
     +import HelloWorld from '@/components/HelloWorld.vue'
     ```
+
+    In `src/main.ts`
+
+    ```diff
+    -import App from './App.vue'
+    +import App from '@/App.vue'
+    ```
+
 1. `git add -u`
 1. `git cim 'update tsconfig: add tests to include and use @ as root'`
 1. But if we run our dev server we will get this error
