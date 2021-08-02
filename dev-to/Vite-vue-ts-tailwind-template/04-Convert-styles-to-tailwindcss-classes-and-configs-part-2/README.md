@@ -1,4 +1,4 @@
-# Convert styles to tailwindcss classes and configs (Part 2)
+# Convert styles to TailwindCSS classes and configs (Part 2)
 
 ## Replace existing styles with TailwindCSS classes in `src/components/HelloWorld.vue`
 

@@ -1,5 +1,5 @@
 {
-    "title": "Convert styles to tailwindcss classes and configs (Part 1)",
+    "title": "Convert styles to TailwindCSS classes and configs (Part 1)",
     "tags": ["vite", "vue", "tailwindcss"],
     "cover": "cover.png",
     "series": "Vite vue ts tailwind template",

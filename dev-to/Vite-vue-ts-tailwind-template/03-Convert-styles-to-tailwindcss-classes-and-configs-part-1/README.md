@@ -1,4 +1,4 @@
-# Convert styles to tailwindcss classes and configs (Part 1)
+# Convert styles to TailwindCSS classes and configs (Part 1)
 
 ## Enable `jit` mode
 
