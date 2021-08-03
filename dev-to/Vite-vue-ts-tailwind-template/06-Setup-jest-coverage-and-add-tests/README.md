@@ -242,7 +242,7 @@
     1. Run our tests
 
     ```console
-    npm run test
+    $ npm run test
 
     > vite-vue-typescript-starter@0.0.0 test
     > jest
