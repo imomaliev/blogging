@@ -25,7 +25,10 @@
     +![ci](https://github.com/imomaliev/vue-ts-tailwind/actions/workflows/ci.yml/badge.svg)
 
     -# Vue 3 + Typescript + Vite + Jest
-    +# Vue 3 + Typescript + Vite + Jest + Tailwind
+    +# Vue 3 + Typescript + Vite + Jest + TailwindCSS
+
+    -This template should help get you started developing with Vue 3 and Typescript in Vite.
+    +This template should help get you started developing with Vue 3, Typescript and TailwindCSS in Vite.
     ```
 
 1. Update project `name` and `deploy` script in `package.json`

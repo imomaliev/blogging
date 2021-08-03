@@ -1,4 +1,4 @@
-# Install instructions and repo configuration
+# Installation instructions, depandabot notifications and license
 
 ## Add project setup instructions
 
