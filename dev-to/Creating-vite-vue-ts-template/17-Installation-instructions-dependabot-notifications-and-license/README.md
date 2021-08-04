@@ -68,7 +68,7 @@
 1. `git add -u`
 1. `git commit -m 'add install instructions'`
 
-## Setup Depandabot notifications
+## Setup Dependabot notifications
 
 1. Go to `Security -> Enable Dependabot alerts`
    ![Enable Dependabot alerts](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ngxvg1v48f97cp3qtfjf.png)
@@ -94,4 +94,4 @@
 
 ## Project
 
-[vue-ts](https://github.com/imomaliev/vue-ts)
+{% github https://github.com/imomaliev/vue-ts no-readme %}

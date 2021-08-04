@@ -113,4 +113,4 @@ From [docs](https://tailwindcss.com/docs/preflight):
 
 ## Project
 
-[vue-ts-tailwind](https://github.com/imomaliev/vue-ts-tailwind)
+{% github https://github.com/imomaliev/vue-ts-tailwind no-readme %}

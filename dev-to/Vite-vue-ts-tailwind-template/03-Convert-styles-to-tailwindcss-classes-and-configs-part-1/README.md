@@ -187,4 +187,4 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 
 ## Project
 
-[vue-ts-tailwind](https://github.com/imomaliev/vue-ts-tailwind)
+{% github https://github.com/imomaliev/vue-ts-tailwind no-readme %}

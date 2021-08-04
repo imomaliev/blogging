@@ -367,4 +367,4 @@ index f718135..15a2d43 100644
 
 ## Project
 
-[vue-ts-tailwind](https://github.com/imomaliev/vue-ts-tailwind)
+{% github https://github.com/imomaliev/vue-ts-tailwind no-readme %}

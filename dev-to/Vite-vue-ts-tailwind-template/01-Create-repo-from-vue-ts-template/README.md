@@ -12,7 +12,7 @@
 ## Configure github repository
 
 1. Make this repo a `Template repository` as we did in {% link https://dev.to/imomaliev/github-project-template-1mc3 %}
-1. Enable Depandabot alerts {% link https://dev.to/imomaliev/creating-vite-vue-ts-template-install-instructions-and-repo-configuration-779-temp-slug-4634241 %}
+1. Enable Dependabot alerts {% link https://dev.to/imomaliev/creating-vite-vue-ts-template-install-instructions-and-repo-configuration-4fe4 %}
 
 ## Update project to mention TailwindCSS
 
@@ -79,4 +79,4 @@
 
 ## Project
 
-[vue-ts-tailwind](https://github.com/imomaliev/vue-ts-tailwind)
+{% github https://github.com/imomaliev/vue-ts-tailwind no-readme %}

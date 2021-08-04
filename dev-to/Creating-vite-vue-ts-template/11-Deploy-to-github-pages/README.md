@@ -35,6 +35,10 @@
 1. `git add assets/ favicon.ico index.html`
 1. `git commit -m 'deploy' --no-verify`. We are adding `--no-verify` here to skip pre-commit checks, which will fail because we have deleted `.pre-commit-config.yaml` from this branch
 
+## Deploy to Github Pages with Github Actions
+
+{% link https://dev.to/imomaliev/creating-vite-vue-ts-template-deploy-to-github-pages-with-github-actions-b7 %}
+
 ## Links
 
 -   https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
@@ -45,4 +49,4 @@
 
 ## Project
 
-[vue-ts](https://github.com/imomaliev/vue-ts)
+{% github https://github.com/imomaliev/vue-ts no-readme %}

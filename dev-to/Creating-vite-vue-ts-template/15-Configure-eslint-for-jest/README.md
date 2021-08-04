@@ -57,4 +57,4 @@
 
 ## Project
 
-[vue-ts](https://github.com/imomaliev/vue-ts)
+{% github https://github.com/imomaliev/vue-ts no-readme %}
