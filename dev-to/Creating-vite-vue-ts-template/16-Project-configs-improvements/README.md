@@ -44,7 +44,7 @@
 
 1. `git add -u`
 1. `git cim 'update tsconfig: add tests to include and use @ as root'`
-1. But if we run our dev server we will get this error
+1. But if we run our dev server, we will get this error.
 
     ```console
     $ npm run dev
@@ -98,7 +98,7 @@
     +    "deploy": "vue-tsc --noEmit && vite build --base '/vue-ts/'",
          "serve": "vite preview",
     ```
-1. Update github workflow
+1. Update github workflow.
 
     ```diff
     @@ -15,7 +15,7 @@ jobs:
@@ -145,7 +145,7 @@
 
 ## Delete unused styles
 
-1. After code review I've found that `vue-ts` template for Vite contains unused styles for `label` tag.
+1. After code review, I've found that `vue-ts` template for Vite contains unused styles for `label` tag.
 1. Remove unused styles in `src/component/HelloWorld.vue`
 
     ```diff

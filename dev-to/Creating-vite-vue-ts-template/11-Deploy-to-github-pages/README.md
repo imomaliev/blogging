@@ -24,16 +24,16 @@
     $ git checkout --orphan gh-pages
     ```
 
-1. Clear the index and the working tree right after creating the orphan branch
+1. Clear the index and the working tree right after creating the orphan branch.
     ```console
     $ git rm -rf .
     ```
-1. Put `dist/` folder contents into root of a project
+1. Put `dist/` folder contents into root of a project.
     ```console
     mv dist/* . &&  rmdir dist/
     ```
 1. `git add assets/ favicon.ico index.html`
-1. `git commit -m 'deploy' --no-verify`. We are adding `--no-verify` here to skip pre-commit checks, which will fail because we have deleted `.pre-commit-config.yaml` from this branch
+1. `git commit -m 'deploy' --no-verify`. We are adding `--no-verify` here to skip pre-commit checks, which will fail because we have deleted `.pre-commit-config.yaml` from this branch.
 
 ## Deploy to Github Pages with Github Actions
 

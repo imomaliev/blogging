@@ -4,7 +4,7 @@
 
 1. Create vite project from `vue-ts` template
    `npm init vite@latest vite-vue-typescript-starter -- --template vue-ts`
-1. Move contents of created folder into root of repo
+1. Move contents of created folder into root of repo.
 
     ```console
     $ mv vite-vue-typescript-starter/* vite-vue-typescript-starter/.gitignore .

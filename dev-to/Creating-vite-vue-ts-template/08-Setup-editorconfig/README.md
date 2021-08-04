@@ -3,7 +3,7 @@
 ## Setup editorconfig and config files
 
 1. Create editorconfig config file `touch .editorconfig`
-1. Update `.editorconfig` to look like this
+1. Update `.editorconfig` to look like this.
 
     ```
     # EditorConfig is awesome: https://EditorConfig.org

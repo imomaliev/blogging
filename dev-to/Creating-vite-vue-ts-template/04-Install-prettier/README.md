@@ -4,7 +4,7 @@
 
 1. Install prettier `npm install --save-dev prettier`
 1. Create prettier config file `touch .prettierrc.js`
-1. Edit `.prettierrc.js` to look like this
+1. Edit `.prettierrc.js` to look like this.
     ```javascript
     module.exports = {
       semi: false
@@ -13,13 +13,13 @@
     }
     ```
 1. Create prettier ignore file `touch .prettierignore`
-1. Edit `.prettierignore` to look like this
+1. Edit `.prettierignore` to look like this.
     ```gitignore
     # Ignore artifacts:
     dist
     coverage
     ```
-1. Add `"format": "prettier --write ."` to `"scripts"` section in package.json
+1. Add `"format": "prettier --write ."` to `"scripts"` section in `package.json`
     ```diff
        "scripts": {
          ...,

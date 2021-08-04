@@ -8,6 +8,11 @@
 1. `git remote add origin git@github.com:imomaliev/vue-ts.git`
 1. `git push -u origin HEAD`
 
+## Links
+
+-   https://docs.github.com/en/get-started/quickstart/set-up-git
+-   https://git-scm.com/docs/git-init
+
 ## Project
 
 {% github https://github.com/imomaliev/vue-ts no-readme %}

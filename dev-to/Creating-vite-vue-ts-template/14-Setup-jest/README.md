@@ -24,7 +24,7 @@
 
 ## Configure jest for vue
 
-1. To make jest and `vue` work together we will need `vue-jest` package. Recently it was split into `vue2-jest` and [`vue3-jest`](https://www.npmjs.com/package/vue3-jest) (we will use this one), which are currently in alfa. But we still going to use it because this is the only version that supports `jest >= 27.x`. Also for better testing experience with `vue` we will install [`@vue/test-utils`](https://github.com/vuejs/vue-test-utils-next) -
+1. To make jest and `vue` work together, we will need `vue-jest` package. Recently it was split into `vue2-jest` and [`vue3-jest`](https://www.npmjs.com/package/vue3-jest) (we will use this one), which are currently in alpha. But we're still going to use it because this is the only version that supports `jest >= 27.x`. Also, for better testing experience with `vue` we will install [`@vue/test-utils`](https://github.com/vuejs/vue-test-utils-next) -
 
     > official testing utility library for Vue.js
 
@@ -71,7 +71,7 @@
 
 ### Fix `error TS7016: Could not find a declaration file for module '@vue/test-utils'`
 
-1. If running tests causes this
+1. If running tests causes this.
 
     ```console
     $ npm run test
@@ -95,7 +95,7 @@
     Ran all test suites.
     ```
 
-1. This is due a bug in version `2.0.0-rc.11` which was fixed in `2.0.0-rc.12`.
+1. This is due to a bug in version `2.0.0-rc.11` which was fixed in `2.0.0-rc.12`.
     - https://github.com/vuejs/vue-test-utils-next/releases/tag/v2.0.0-rc.12
     - https://github.com/vuejs/vue-test-utils-next/issues/799
     - https://github.com/vuejs/vue-test-utils-next/pull/800
@@ -108,7 +108,7 @@
 
 ### Fix `Cannot find module '@/components/HelloWorld.vue' from 'tests/unit/HelloWorld.spec.ts'`
 
-1. If running tests causes
+1. If running tests causes.
 
     ```console
     $ npm run test
@@ -152,7 +152,7 @@
 
 ### Fix `ReferenceError: document is not defined`
 
-1. If running tests causes
+1. If running tests causes.
 
     ```console
     $ npm run test
@@ -190,7 +190,7 @@
     Ran all test suites.
     ```
 
-1. As error message suggests we could fix this error by updating `jest.config.js`
+1. As the error message suggests, we could fix this error by updating `jest.config.js`
     ```diff
     -  testEnvironment: 'node',
     +  testEnvironment: 'jsdom',

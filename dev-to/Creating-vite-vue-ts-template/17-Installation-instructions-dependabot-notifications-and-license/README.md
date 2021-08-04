@@ -4,7 +4,8 @@
 
 1. Add `Project Setup` section to our `README.md`
 
-    ````diff
+    <!-- prettier-ignore -->
+    ~~~diff
     -# Vue 3 + Typescript + Vite
     +# Vue 3 + Typescript + Vite + Jest
 
@@ -53,17 +54,20 @@
     +```
     +
      ## Recommended IDE Setup
-    ````
+    <!-- prettier-ignore -->
+    ~~~
 
-1. Add `pre-commit` hooks installation instruction
+1. Add `pre-commit` hooks installation instruction.
 
-    ````diff
+    <!-- prettier-ignore -->
+    ~~~diff
     +## Install pre-commit hooks
     +```
     +pre-commit install
     +```
     +
-    ````
+    <!-- prettier-ignore -->
+    ~~~
 
 1. `git add -u`
 1. `git commit -m 'add install instructions'`
@@ -83,7 +87,7 @@
 1. Press appeared `Choose a license template` button.
    ![Choose a license template](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c2ad05wr3h9akk37blkn.png)
 1. Select `MIT License` and press `Review and submit`.
-1. In appeared commit form choose `Commit directly to the main branch.`
+1. In appeared commit form, choose `Commit directly to the main branch.`
 1. Press `Commit new file`
 
 ## Links
