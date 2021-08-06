@@ -2,7 +2,7 @@
 
 ## Enable `jit` mode
 
-If you haven't heard TailwindCSS 2.1+ has a [`jit`](https://tailwindcss.com/docs/just-in-time-mode) mode. It speeds up build times and allows couple of extra features which take TailwindCSS's utility first approach to next level
+If you haven't heard, TailwindCSS 2.1+ has a [`jit`](https://tailwindcss.com/docs/just-in-time-mode) mode. It speeds up build times and allows a couple of extra features which take TailwindCSS's utility first approach to the next level
 
 Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode#enabling-jit-mode)
 
@@ -13,11 +13,11 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 1. `git add -u`
 1. `git commit -m 'enable tailwindcss jit'`
 
-## Replace existing styles with TailwindCSS classes in `src/App`
+## Replace existing styles with TailwindCSS classes in `src/App.vue`
 
 ### Replace `font-family`
 
-1. Our first CSS property is [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) inside `#app` styles. To set `font-samily` for TailwindCSS project we will use [`fontFamily`](https://tailwindcss.com/docs/font-family#customizing) configuration in our [`theme`](https://tailwindcss.com/docs/configuration#theme) section of `tailwind.config.js`
+1. Our first CSS property is [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) inside `#app` styles. To set `font-samily` for TailwindCSS project, we will use [`fontFamily`](https://tailwindcss.com/docs/font-family#customizing) configuration in our [`theme`](https://tailwindcss.com/docs/configuration#theme) section of `tailwind.config.js`
 1. Update our code
 
     ```diff
@@ -54,7 +54,7 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 
 ### Replace `-webkit-font-smoothing` and `-moz-osx-font-smoothing`
 
-1. Next propperties are `-webkit-font-smoothing` and `-moz-osx-font-smoothing`. There is already [utility class](https://tailwindcss.com/docs/font-smoothing) for this properties. So we will use it with [`@apply`](https://tailwindcss.com/docs/functions-and-directives#apply) directive.
+1. Next properties are `-webkit-font-smoothing` and `-moz-osx-font-smoothing`. There is already [a utility class](https://tailwindcss.com/docs/font-smoothing) for these properties. So we will use it with [`@apply`](https://tailwindcss.com/docs/functions-and-directives#apply) directive.
 1. Update our code
 
     ```diff
@@ -79,7 +79,7 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 
 ### Replace `text-align`
 
-1. `text-align` is pretty stright forward as well. There are [text alignment utilities](https://tailwindcss.com/docs/text-align).
+1. `text-align` is pretty straight forward as well. There are [text alignment utilities](https://tailwindcss.com/docs/text-align).
 1. Update our code
 
     ```diff
@@ -104,7 +104,7 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 
 ### Replace `color`
 
-1. General `color` as `font-family` should be set in `tailwind.config.js`. We could use one of jit's features and set color inline with ["Arbitrary value support"](https://tailwindcss.com/docs/just-in-time-mode#arbitrary-value-support) But in this case we will add new color called `default` in [`textColor`](https://tailwindcss.com/docs/text-color#customizing) by `extend`ing our `theme`.
+1. General `color` as `font-family` should be set in `tailwind.config.js`. We could use one of jit's features and set color inline with ["Arbitrary value support"](https://tailwindcss.com/docs/just-in-time-mode#arbitrary-value-support) But in this case we will add a new color called `default` in [`textColor`](https://tailwindcss.com/docs/text-color#customizing) by `extend`ing our `theme`.
 1. Update our code
 
     ```diff
@@ -146,7 +146,7 @@ Enabling `jit` is pretty [simple](https://tailwindcss.com/docs/just-in-time-mode
 
 ### Replace `margin-top`
 
-1. This is last style in `#app`. TailwindCSS uses `rem`'s for [`margin`](https://tailwindcss.com/docs/margin) classes. We have `margin-top: 60px;` in `rem`'s it would be `3.75`. By default there is no class for this value. We could [add](https://tailwindcss.com/docs/margin#customizing) one, but I prefer just choosing closest one from already preconfigured ones. Which will be `mt-16`.
+1. This is the last style in `#app`. TailwindCSS uses `rem`'s for [`margin`](https://tailwindcss.com/docs/margin) classes. We have `margin-top: 60px;` in `rem`'s it would be `3.75`. By default, there is no class for this value. We could [add](https://tailwindcss.com/docs/margin#customizing) one, but I prefer just choosing the closest one from already preconfigured ones. Which will be `mt-16`.
 1. Update our code
 
     ```diff

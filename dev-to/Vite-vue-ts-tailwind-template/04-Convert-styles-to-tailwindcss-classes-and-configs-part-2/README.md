@@ -44,7 +44,7 @@
 
 1. First replace `background-color`. As with `color` we will add new color called `code` in [`backgroundColor`](https://tailwindcss.com/docs/background-color#customizing) by `extend`ing our `theme`.
 1. Then as with `margin` we will replace [`padding`](https://tailwindcss.com/docs/padding). Luckily there are classes that match our values.
-1. Finally create new `textColor` called `code`.
+1. Finally, create a new `textColor` called `code`.
 1. Our code diff should look like this
 
     ```diff

@@ -3,7 +3,7 @@
 ## Enable and setup tests coverage
 
 1. To enable coverage in Jest we need to set [`collectCoverage`](https://jestjs.io/docs/configuration#collectcoverage-boolean) in our configs to `true`.
-1. By default coverage will run on all files. To avoid that let's [configure Jest](https://jestjs.io/docs/configuration#collectcoveragefrom-array) to collect coverage only on our `src` dir and only on actual code files.
+1. By default, coverage will run on all files. To avoid that, let's [configure Jest](https://jestjs.io/docs/configuration#collectcoveragefrom-array) to collect coverage only on our `src` dir and only on actual code files.
 1. Update our `jest.config.js`
     ```diff
     diff --git a/jest.config.js b/jest.config.js
@@ -217,7 +217,7 @@
 
 ## Add test for `src/App.vue`
 
-1. To get 100% reported coverage we will add test for `src/App.vue`.
+1. To get 100% reported coverage, we will add test for `src/App.vue`.
 1. `touch tests/unit/App.spec.vue`.
 1. Update `tests/unit/App.spec.vue`.
 

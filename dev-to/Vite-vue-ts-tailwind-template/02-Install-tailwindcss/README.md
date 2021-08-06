@@ -6,7 +6,7 @@
     ```console
     $ npm install --save-dev tailwindcss@latest postcss@latest autoprefixer@latest
     ```
-1. Create configuration files
+1. Create configuration files.
     ```console
     $ npx tailwindcss init -p
     ```
@@ -15,14 +15,14 @@
     -  purge: [],
     +  purge: ['./index.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
     ```
-1. Create `index.css. `touch src/index.css`.
-1. Update `src/index.css`
+1. Create `index.css`. `touch src/index.css`.
+1. Update `src/index.css`.
     ```diff
     +@tailwind base;
     +@tailwind components;
     +@tailwind utilities;
     ```
-1. Ensure our css file is imported. Update `src/main.ts`
+1. Import `src/index.css` in `src/main.ts`.
     ```diff
      import App from '@/App.vue'
     +import '@/index.css'
