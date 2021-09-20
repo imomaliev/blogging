@@ -24,10 +24,10 @@ to fix that we could [disable preflight](https://tailwindcss.com/docs/preflight#
 
 1. Fix this by setting [left and right margins to `auto`](https://stackoverflow.com/questions/11856150/center-an-image-horizontally-using-css) with `mx-auto` class.
 
-```diff
-  -  <img alt="Vue logo" src="./assets/logo.png" />
-  +  <img class="mx-auto" alt="Vue logo" src="./assets/logo.png" />
-```
+    ```diff
+    -  <img alt="Vue logo" src="./assets/logo.png" />
+    +  <img class="mx-auto" alt="Vue logo" src="./assets/logo.png" />
+    ```
 
 ### Add `h1` text styles
 

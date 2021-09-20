@@ -14,6 +14,10 @@
 1. Make this repo a `Template repository` as we did in {% link https://dev.to/imomaliev/github-project-template-1mc3 %}
 1. Enable Dependabot alerts {% link https://dev.to/imomaliev/creating-vite-vue-ts-template-install-instructions-and-repo-configuration-4fe4 %}
 
+## Enable `pre-commit.ci`
+
+{% link https://dev.to/imomaliev/creating-vite-vue-ts-template-setup-pre-commit-ci-42h %}
+
 ## Update project to mention TailwindCSS
 
 1. Update badges and title in `README.md`.
