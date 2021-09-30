@@ -2,6 +2,6 @@
     "title": "Automatically update package.json dependencies",
     "tags": ["todayilearned", "npm", "vue", "typescript"],
     "cover": "cover.png",
-    "series": "TIL",
+    "series": "Today I Learned",
     "images": []
 }
