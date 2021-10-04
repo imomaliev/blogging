@@ -1,0 +1,7 @@
+{
+    "title": "Fix script setup defineProprs is not defined",
+    "tags": ["todayilearned", "vue", "eslint"],
+    "cover": "cover.png",
+    "series": "Today I Learned",
+    "images": []
+}
