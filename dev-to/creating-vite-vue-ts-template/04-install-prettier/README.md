@@ -7,10 +7,10 @@
 1. Edit `.prettierrc.js` to look like this.
     ```javascript
     module.exports = {
-      semi: false
-      singleQuote: true,
-      trailingComma: 'es5',
-    }
+        semi: false,
+        singleQuote: true,
+        trailingComma: "es5",
+    };
     ```
 1. Create prettier ignore file `touch .prettierignore`
 1. Edit `.prettierignore` to look like this.

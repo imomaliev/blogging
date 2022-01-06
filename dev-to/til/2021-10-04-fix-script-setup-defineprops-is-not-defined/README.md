@@ -22,12 +22,12 @@ In one of my `vue-ts` series' [article](https://dev.to/imomaliev/creating-vite-v
 
 ### Solution
 
-Add `defineProps` to `globals` in `eslint`. From [docs](https://eslint.vuejs.org/user-guide/#compiler-macros-such-as-defineprops-and-defineemits-are-warned-by-no-undef-rule):
+Add `'vue/setup-compiler-macros': true` to `env` in `eslint`. From [docs](https://eslint.vuejs.org/user-guide/#compiler-macros-such-as-defineprops-and-defineemits-generate-no-undef-warnings):
 
 ```diff
 module.exports = {
-+   globals: {
-+     defineProps: "readonly",
++   env: {
++     'vue/setup-compiler-macros': true
 +   }
 }
 ```
